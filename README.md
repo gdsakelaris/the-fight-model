@@ -1,4 +1,4 @@
-# A Leak-Safe, Time-Aware Ensemble for UFC Fight Outcome and Method Prediction
+# A Leakage-Safe, Time-Aware Ensemble for UFC Fight Outcome and Method-of-Victory Prediction
 
 A machine-learning system that predicts **(1) the winner** of a UFC bout and
 **(2) the method of victory** (Decision / KO-TKO / Submission), built and
