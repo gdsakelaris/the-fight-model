@@ -1,0 +1,13 @@
+# Generated at runtime
+.ufc_model_cache/
+catboost_info/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

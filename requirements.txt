@@ -1,0 +1,11 @@
+# Pinned to the versions the published results were produced with
+# (Python 3.13; any Python >= 3.10 should work).
+numpy==2.3.2
+pandas==2.3.2
+scikit-learn==1.7.1
+scipy==1.16.1
+lightgbm==4.6.0
+xgboost==3.0.5
+catboost==1.2.8
+optuna==4.5.0
+openpyxl==3.1.5

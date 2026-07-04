@@ -1,0 +1,320 @@
+event_date: Date of the event.
+event_name: Name of the UFC event.
+event_url: UFC Stats URL for the event page.
+fight_url: UFC Stats URL for the specific fight page.
+event_location: Location of the event.
+event_altitude: Elevation of the event venue above sea level, in feet.
+r_trains_at: Red-corner fighter training camp (gym or team) around the time of the fight; blank when unknown.
+b_trains_at: Blue-corner fighter training camp (gym or team) around the time of the fight; blank when unknown.
+r_training_altitude_ft: Elevation of the red-corner fighter's training camp above sea level, in feet, geocoded from the camp location; blank when the camp is unknown.
+b_training_altitude_ft: Elevation of the blue-corner fighter's training camp above sea level, in feet, geocoded from the camp location; blank when the camp is unknown.
+r_fighter: Red-corner fighter identifier or name as stored in the dataset.
+b_fighter: Blue-corner fighter identifier or name as stored in the dataset.
+weight_class: Fight weight class.
+gender: Gender division for the fight.
+total_rounds: Scheduled number of rounds for the fight.
+is_title_bout: Whether the fight was a title bout.
+referee: Referee assigned to the fight.
+winner: Winning side or outcome, usually Red, Blue, or Draw.
+method: Official result method, such as knockout or technical knockout, submission, or decision.
+finish_round: Round in which the fight ended.
+time_sec: Finish time within the ending round, converted to seconds.
+total_fight_time_sec: Total elapsed fight time from the opening bell to the finish, in seconds.
+r_height: Red-corner fighter height.
+b_height: Blue-corner fighter height.
+height_diff: Difference in height: red-corner fighter height minus blue-corner fighter height.
+r_reach: Red-corner fighter reach.
+b_reach: Blue-corner fighter reach.
+reach_diff: Difference in reach: red-corner fighter reach minus blue-corner fighter reach.
+r_ape_index: Red-corner fighter ape index, calculated as reach divided by height.
+b_ape_index: Blue-corner fighter ape index, calculated as reach divided by height.
+ape_index_diff: Difference in ape index: red-corner fighter ape index minus blue-corner fighter ape index.
+r_stance: Red-corner fighter stance.
+b_stance: Blue-corner fighter stance.
+r_weight: Red-corner fighter weight.
+b_weight: Blue-corner fighter weight.
+weight_diff: Difference in weight: red-corner fighter weight minus blue-corner fighter weight.
+r_date_of_birth: Red-corner fighter date of birth.
+b_date_of_birth: Blue-corner fighter date of birth.
+r_age_at_event: Red-corner fighter age on the event date.
+b_age_at_event: Blue-corner fighter age on the event date.
+age_at_event_diff: Difference in age on the event date: red-corner fighter age minus blue-corner fighter age.
+r_sig_str: Red-corner fighter significant strikes landed.
+b_sig_str: Blue-corner fighter significant strikes landed.
+sig_str_diff: Difference in significant strikes landed: red-corner fighter value minus blue-corner fighter value.
+r_sig_str_att: Red-corner fighter significant strike attempts.
+b_sig_str_att: Blue-corner fighter significant strike attempts.
+sig_str_att_diff: Difference in significant strike attempts: red-corner fighter value minus blue-corner fighter value.
+r_sig_str_acc: Red-corner fighter significant strike accuracy, calculated as significant strikes landed divided by significant strike attempts.
+b_sig_str_acc: Blue-corner fighter significant strike accuracy, calculated as significant strikes landed divided by significant strike attempts.
+sig_str_acc_diff: Difference in significant strike accuracy: red-corner fighter value minus blue-corner fighter value.
+r_str: Red-corner fighter total strikes landed.
+b_str: Blue-corner fighter total strikes landed.
+str_diff: Difference in total strikes landed: red-corner fighter value minus blue-corner fighter value.
+r_str_att: Red-corner fighter total strike attempts.
+b_str_att: Blue-corner fighter total strike attempts.
+str_att_diff: Difference in total strike attempts: red-corner fighter value minus blue-corner fighter value.
+r_str_acc: Red-corner fighter total strike accuracy, calculated as total strikes landed divided by total strike attempts.
+b_str_acc: Blue-corner fighter total strike accuracy, calculated as total strikes landed divided by total strike attempts.
+str_acc_diff: Difference in total strike accuracy: red-corner fighter value minus blue-corner fighter value.
+r_kd: Red-corner fighter knockdowns scored.
+b_kd: Blue-corner fighter knockdowns scored.
+kd_diff: Difference in knockdowns scored: red-corner fighter value minus blue-corner fighter value.
+r_head: Red-corner fighter share of significant strikes landed to the head, expressed as a proportion of all significant strikes landed.
+b_head: Blue-corner fighter share of significant strikes landed to the head, expressed as a proportion of all significant strikes landed.
+head_diff: Difference in head-target share of landed significant strikes: red-corner fighter value minus blue-corner fighter value.
+r_body: Red-corner fighter share of significant strikes landed to the body, expressed as a proportion of all significant strikes landed.
+b_body: Blue-corner fighter share of significant strikes landed to the body, expressed as a proportion of all significant strikes landed.
+body_diff: Difference in body-target share of landed significant strikes: red-corner fighter value minus blue-corner fighter value.
+r_leg: Red-corner fighter share of significant strikes landed to the legs, expressed as a proportion of all significant strikes landed.
+b_leg: Blue-corner fighter share of significant strikes landed to the legs, expressed as a proportion of all significant strikes landed.
+leg_diff: Difference in leg-target share of landed significant strikes: red-corner fighter value minus blue-corner fighter value.
+r_distance: Red-corner fighter share of significant strikes landed at distance, expressed as a proportion of all significant strikes landed.
+b_distance: Blue-corner fighter share of significant strikes landed at distance, expressed as a proportion of all significant strikes landed.
+distance_diff: Difference in distance-position share of landed significant strikes: red-corner fighter value minus blue-corner fighter value.
+r_clinch: Red-corner fighter share of significant strikes landed in the clinch, expressed as a proportion of all significant strikes landed.
+b_clinch: Blue-corner fighter share of significant strikes landed in the clinch, expressed as a proportion of all significant strikes landed.
+clinch_diff: Difference in clinch-position share of landed significant strikes: red-corner fighter value minus blue-corner fighter value.
+r_ground: Red-corner fighter share of significant strikes landed on the ground, expressed as a proportion of all significant strikes landed.
+b_ground: Blue-corner fighter share of significant strikes landed on the ground, expressed as a proportion of all significant strikes landed.
+ground_diff: Difference in ground-position share of landed significant strikes: red-corner fighter value minus blue-corner fighter value.
+r_td: Red-corner fighter takedowns landed.
+b_td: Blue-corner fighter takedowns landed.
+td_diff: Difference in takedowns landed: red-corner fighter value minus blue-corner fighter value.
+r_td_att: Red-corner fighter takedown attempts.
+b_td_att: Blue-corner fighter takedown attempts.
+td_att_diff: Difference in takedown attempts: red-corner fighter value minus blue-corner fighter value.
+r_td_acc: Red-corner fighter takedown accuracy, calculated as takedowns landed divided by takedown attempts.
+b_td_acc: Blue-corner fighter takedown accuracy, calculated as takedowns landed divided by takedown attempts.
+td_acc_diff: Difference in takedown accuracy: red-corner fighter value minus blue-corner fighter value.
+r_sub_att: Red-corner fighter submission attempts.
+b_sub_att: Blue-corner fighter submission attempts.
+sub_att_diff: Difference in submission attempts: red-corner fighter value minus blue-corner fighter value.
+r_rev: Red-corner fighter reversals.
+b_rev: Blue-corner fighter reversals.
+rev_diff: Difference in reversals: red-corner fighter value minus blue-corner fighter value.
+r_ctrl_sec: Red-corner fighter control time, in seconds.
+b_ctrl_sec: Blue-corner fighter control time, in seconds.
+ctrl_sec_diff: Difference in control time, in seconds: red-corner fighter value minus blue-corner fighter value.
+r_name: Red-corner fighter name.
+b_name: Blue-corner fighter name.
+r_rd1_kd: Red-corner fighter round 1 knockdowns scored.
+b_rd1_kd: Blue-corner fighter round 1 knockdowns scored.
+r_rd1_sig_str: Red-corner fighter round 1 significant strikes landed.
+r_rd1_sig_str_att: Red-corner fighter round 1 significant strike attempts.
+b_rd1_sig_str: Blue-corner fighter round 1 significant strikes landed.
+b_rd1_sig_str_att: Blue-corner fighter round 1 significant strike attempts.
+r_rd1_str: Red-corner fighter round 1 total strikes landed.
+r_rd1_str_att: Red-corner fighter round 1 total strike attempts.
+b_rd1_str: Blue-corner fighter round 1 total strikes landed.
+b_rd1_str_att: Blue-corner fighter round 1 total strike attempts.
+r_rd1_td: Red-corner fighter round 1 takedowns landed.
+r_rd1_td_att: Red-corner fighter round 1 takedown attempts.
+b_rd1_td: Blue-corner fighter round 1 takedowns landed.
+b_rd1_td_att: Blue-corner fighter round 1 takedown attempts.
+r_rd1_sub_att: Red-corner fighter round 1 submission attempts.
+b_rd1_sub_att: Blue-corner fighter round 1 submission attempts.
+r_rd1_rev: Red-corner fighter round 1 reversals.
+b_rd1_rev: Blue-corner fighter round 1 reversals.
+r_rd1_ctrl_sec: Red-corner fighter round 1 control time, in seconds.
+b_rd1_ctrl_sec: Blue-corner fighter round 1 control time, in seconds.
+r_rd1_head: Red-corner fighter round 1 head significant strikes landed, as a raw count.
+r_rd1_head_att: Red-corner fighter round 1 head significant strike attempts.
+b_rd1_head: Blue-corner fighter round 1 head significant strikes landed, as a raw count.
+b_rd1_head_att: Blue-corner fighter round 1 head significant strike attempts.
+r_rd1_body: Red-corner fighter round 1 body significant strikes landed, as a raw count.
+r_rd1_body_att: Red-corner fighter round 1 body significant strike attempts.
+b_rd1_body: Blue-corner fighter round 1 body significant strikes landed, as a raw count.
+b_rd1_body_att: Blue-corner fighter round 1 body significant strike attempts.
+r_rd1_leg: Red-corner fighter round 1 leg significant strikes landed, as a raw count.
+r_rd1_leg_att: Red-corner fighter round 1 leg significant strike attempts.
+b_rd1_leg: Blue-corner fighter round 1 leg significant strikes landed, as a raw count.
+b_rd1_leg_att: Blue-corner fighter round 1 leg significant strike attempts.
+r_rd1_distance: Red-corner fighter round 1 distance significant strikes landed, as a raw count.
+r_rd1_distance_att: Red-corner fighter round 1 distance significant strike attempts.
+b_rd1_distance: Blue-corner fighter round 1 distance significant strikes landed, as a raw count.
+b_rd1_distance_att: Blue-corner fighter round 1 distance significant strike attempts.
+r_rd1_clinch: Red-corner fighter round 1 clinch significant strikes landed, as a raw count.
+r_rd1_clinch_att: Red-corner fighter round 1 clinch significant strike attempts.
+b_rd1_clinch: Blue-corner fighter round 1 clinch significant strikes landed, as a raw count.
+b_rd1_clinch_att: Blue-corner fighter round 1 clinch significant strike attempts.
+r_rd1_ground: Red-corner fighter round 1 ground significant strikes landed, as a raw count.
+r_rd1_ground_att: Red-corner fighter round 1 ground significant strike attempts.
+b_rd1_ground: Blue-corner fighter round 1 ground significant strikes landed, as a raw count.
+b_rd1_ground_att: Blue-corner fighter round 1 ground significant strike attempts.
+r_rd2_kd: Red-corner fighter round 2 knockdowns scored.
+b_rd2_kd: Blue-corner fighter round 2 knockdowns scored.
+r_rd2_sig_str: Red-corner fighter round 2 significant strikes landed.
+r_rd2_sig_str_att: Red-corner fighter round 2 significant strike attempts.
+b_rd2_sig_str: Blue-corner fighter round 2 significant strikes landed.
+b_rd2_sig_str_att: Blue-corner fighter round 2 significant strike attempts.
+r_rd2_str: Red-corner fighter round 2 total strikes landed.
+r_rd2_str_att: Red-corner fighter round 2 total strike attempts.
+b_rd2_str: Blue-corner fighter round 2 total strikes landed.
+b_rd2_str_att: Blue-corner fighter round 2 total strike attempts.
+r_rd2_td: Red-corner fighter round 2 takedowns landed.
+r_rd2_td_att: Red-corner fighter round 2 takedown attempts.
+b_rd2_td: Blue-corner fighter round 2 takedowns landed.
+b_rd2_td_att: Blue-corner fighter round 2 takedown attempts.
+r_rd2_sub_att: Red-corner fighter round 2 submission attempts.
+b_rd2_sub_att: Blue-corner fighter round 2 submission attempts.
+r_rd2_rev: Red-corner fighter round 2 reversals.
+b_rd2_rev: Blue-corner fighter round 2 reversals.
+r_rd2_ctrl_sec: Red-corner fighter round 2 control time, in seconds.
+b_rd2_ctrl_sec: Blue-corner fighter round 2 control time, in seconds.
+r_rd2_head: Red-corner fighter round 2 head significant strikes landed, as a raw count.
+r_rd2_head_att: Red-corner fighter round 2 head significant strike attempts.
+b_rd2_head: Blue-corner fighter round 2 head significant strikes landed, as a raw count.
+b_rd2_head_att: Blue-corner fighter round 2 head significant strike attempts.
+r_rd2_body: Red-corner fighter round 2 body significant strikes landed, as a raw count.
+r_rd2_body_att: Red-corner fighter round 2 body significant strike attempts.
+b_rd2_body: Blue-corner fighter round 2 body significant strikes landed, as a raw count.
+b_rd2_body_att: Blue-corner fighter round 2 body significant strike attempts.
+r_rd2_leg: Red-corner fighter round 2 leg significant strikes landed, as a raw count.
+r_rd2_leg_att: Red-corner fighter round 2 leg significant strike attempts.
+b_rd2_leg: Blue-corner fighter round 2 leg significant strikes landed, as a raw count.
+b_rd2_leg_att: Blue-corner fighter round 2 leg significant strike attempts.
+r_rd2_distance: Red-corner fighter round 2 distance significant strikes landed, as a raw count.
+r_rd2_distance_att: Red-corner fighter round 2 distance significant strike attempts.
+b_rd2_distance: Blue-corner fighter round 2 distance significant strikes landed, as a raw count.
+b_rd2_distance_att: Blue-corner fighter round 2 distance significant strike attempts.
+r_rd2_clinch: Red-corner fighter round 2 clinch significant strikes landed, as a raw count.
+r_rd2_clinch_att: Red-corner fighter round 2 clinch significant strike attempts.
+b_rd2_clinch: Blue-corner fighter round 2 clinch significant strikes landed, as a raw count.
+b_rd2_clinch_att: Blue-corner fighter round 2 clinch significant strike attempts.
+r_rd2_ground: Red-corner fighter round 2 ground significant strikes landed, as a raw count.
+r_rd2_ground_att: Red-corner fighter round 2 ground significant strike attempts.
+b_rd2_ground: Blue-corner fighter round 2 ground significant strikes landed, as a raw count.
+b_rd2_ground_att: Blue-corner fighter round 2 ground significant strike attempts.
+r_rd3_kd: Red-corner fighter round 3 knockdowns scored.
+b_rd3_kd: Blue-corner fighter round 3 knockdowns scored.
+r_rd3_sig_str: Red-corner fighter round 3 significant strikes landed.
+r_rd3_sig_str_att: Red-corner fighter round 3 significant strike attempts.
+b_rd3_sig_str: Blue-corner fighter round 3 significant strikes landed.
+b_rd3_sig_str_att: Blue-corner fighter round 3 significant strike attempts.
+r_rd3_str: Red-corner fighter round 3 total strikes landed.
+r_rd3_str_att: Red-corner fighter round 3 total strike attempts.
+b_rd3_str: Blue-corner fighter round 3 total strikes landed.
+b_rd3_str_att: Blue-corner fighter round 3 total strike attempts.
+r_rd3_td: Red-corner fighter round 3 takedowns landed.
+r_rd3_td_att: Red-corner fighter round 3 takedown attempts.
+b_rd3_td: Blue-corner fighter round 3 takedowns landed.
+b_rd3_td_att: Blue-corner fighter round 3 takedown attempts.
+r_rd3_sub_att: Red-corner fighter round 3 submission attempts.
+b_rd3_sub_att: Blue-corner fighter round 3 submission attempts.
+r_rd3_rev: Red-corner fighter round 3 reversals.
+b_rd3_rev: Blue-corner fighter round 3 reversals.
+r_rd3_ctrl_sec: Red-corner fighter round 3 control time, in seconds.
+b_rd3_ctrl_sec: Blue-corner fighter round 3 control time, in seconds.
+r_rd3_head: Red-corner fighter round 3 head significant strikes landed, as a raw count.
+r_rd3_head_att: Red-corner fighter round 3 head significant strike attempts.
+b_rd3_head: Blue-corner fighter round 3 head significant strikes landed, as a raw count.
+b_rd3_head_att: Blue-corner fighter round 3 head significant strike attempts.
+r_rd3_body: Red-corner fighter round 3 body significant strikes landed, as a raw count.
+r_rd3_body_att: Red-corner fighter round 3 body significant strike attempts.
+b_rd3_body: Blue-corner fighter round 3 body significant strikes landed, as a raw count.
+b_rd3_body_att: Blue-corner fighter round 3 body significant strike attempts.
+r_rd3_leg: Red-corner fighter round 3 leg significant strikes landed, as a raw count.
+r_rd3_leg_att: Red-corner fighter round 3 leg significant strike attempts.
+b_rd3_leg: Blue-corner fighter round 3 leg significant strikes landed, as a raw count.
+b_rd3_leg_att: Blue-corner fighter round 3 leg significant strike attempts.
+r_rd3_distance: Red-corner fighter round 3 distance significant strikes landed, as a raw count.
+r_rd3_distance_att: Red-corner fighter round 3 distance significant strike attempts.
+b_rd3_distance: Blue-corner fighter round 3 distance significant strikes landed, as a raw count.
+b_rd3_distance_att: Blue-corner fighter round 3 distance significant strike attempts.
+r_rd3_clinch: Red-corner fighter round 3 clinch significant strikes landed, as a raw count.
+r_rd3_clinch_att: Red-corner fighter round 3 clinch significant strike attempts.
+b_rd3_clinch: Blue-corner fighter round 3 clinch significant strikes landed, as a raw count.
+b_rd3_clinch_att: Blue-corner fighter round 3 clinch significant strike attempts.
+r_rd3_ground: Red-corner fighter round 3 ground significant strikes landed, as a raw count.
+r_rd3_ground_att: Red-corner fighter round 3 ground significant strike attempts.
+b_rd3_ground: Blue-corner fighter round 3 ground significant strikes landed, as a raw count.
+b_rd3_ground_att: Blue-corner fighter round 3 ground significant strike attempts.
+r_rd4_kd: Red-corner fighter round 4 knockdowns scored.
+b_rd4_kd: Blue-corner fighter round 4 knockdowns scored.
+r_rd4_sig_str: Red-corner fighter round 4 significant strikes landed.
+r_rd4_sig_str_att: Red-corner fighter round 4 significant strike attempts.
+b_rd4_sig_str: Blue-corner fighter round 4 significant strikes landed.
+b_rd4_sig_str_att: Blue-corner fighter round 4 significant strike attempts.
+r_rd4_str: Red-corner fighter round 4 total strikes landed.
+r_rd4_str_att: Red-corner fighter round 4 total strike attempts.
+b_rd4_str: Blue-corner fighter round 4 total strikes landed.
+b_rd4_str_att: Blue-corner fighter round 4 total strike attempts.
+r_rd4_td: Red-corner fighter round 4 takedowns landed.
+r_rd4_td_att: Red-corner fighter round 4 takedown attempts.
+b_rd4_td: Blue-corner fighter round 4 takedowns landed.
+b_rd4_td_att: Blue-corner fighter round 4 takedown attempts.
+r_rd4_sub_att: Red-corner fighter round 4 submission attempts.
+b_rd4_sub_att: Blue-corner fighter round 4 submission attempts.
+r_rd4_rev: Red-corner fighter round 4 reversals.
+b_rd4_rev: Blue-corner fighter round 4 reversals.
+r_rd4_ctrl_sec: Red-corner fighter round 4 control time, in seconds.
+b_rd4_ctrl_sec: Blue-corner fighter round 4 control time, in seconds.
+r_rd4_head: Red-corner fighter round 4 head significant strikes landed, as a raw count.
+r_rd4_head_att: Red-corner fighter round 4 head significant strike attempts.
+b_rd4_head: Blue-corner fighter round 4 head significant strikes landed, as a raw count.
+b_rd4_head_att: Blue-corner fighter round 4 head significant strike attempts.
+r_rd4_body: Red-corner fighter round 4 body significant strikes landed, as a raw count.
+r_rd4_body_att: Red-corner fighter round 4 body significant strike attempts.
+b_rd4_body: Blue-corner fighter round 4 body significant strikes landed, as a raw count.
+b_rd4_body_att: Blue-corner fighter round 4 body significant strike attempts.
+r_rd4_leg: Red-corner fighter round 4 leg significant strikes landed, as a raw count.
+r_rd4_leg_att: Red-corner fighter round 4 leg significant strike attempts.
+b_rd4_leg: Blue-corner fighter round 4 leg significant strikes landed, as a raw count.
+b_rd4_leg_att: Blue-corner fighter round 4 leg significant strike attempts.
+r_rd4_distance: Red-corner fighter round 4 distance significant strikes landed, as a raw count.
+r_rd4_distance_att: Red-corner fighter round 4 distance significant strike attempts.
+b_rd4_distance: Blue-corner fighter round 4 distance significant strikes landed, as a raw count.
+b_rd4_distance_att: Blue-corner fighter round 4 distance significant strike attempts.
+r_rd4_clinch: Red-corner fighter round 4 clinch significant strikes landed, as a raw count.
+r_rd4_clinch_att: Red-corner fighter round 4 clinch significant strike attempts.
+b_rd4_clinch: Blue-corner fighter round 4 clinch significant strikes landed, as a raw count.
+b_rd4_clinch_att: Blue-corner fighter round 4 clinch significant strike attempts.
+r_rd4_ground: Red-corner fighter round 4 ground significant strikes landed, as a raw count.
+r_rd4_ground_att: Red-corner fighter round 4 ground significant strike attempts.
+b_rd4_ground: Blue-corner fighter round 4 ground significant strikes landed, as a raw count.
+b_rd4_ground_att: Blue-corner fighter round 4 ground significant strike attempts.
+r_rd5_kd: Red-corner fighter round 5 knockdowns scored.
+b_rd5_kd: Blue-corner fighter round 5 knockdowns scored.
+r_rd5_sig_str: Red-corner fighter round 5 significant strikes landed.
+r_rd5_sig_str_att: Red-corner fighter round 5 significant strike attempts.
+b_rd5_sig_str: Blue-corner fighter round 5 significant strikes landed.
+b_rd5_sig_str_att: Blue-corner fighter round 5 significant strike attempts.
+r_rd5_str: Red-corner fighter round 5 total strikes landed.
+r_rd5_str_att: Red-corner fighter round 5 total strike attempts.
+b_rd5_str: Blue-corner fighter round 5 total strikes landed.
+b_rd5_str_att: Blue-corner fighter round 5 total strike attempts.
+r_rd5_td: Red-corner fighter round 5 takedowns landed.
+r_rd5_td_att: Red-corner fighter round 5 takedown attempts.
+b_rd5_td: Blue-corner fighter round 5 takedowns landed.
+b_rd5_td_att: Blue-corner fighter round 5 takedown attempts.
+r_rd5_sub_att: Red-corner fighter round 5 submission attempts.
+b_rd5_sub_att: Blue-corner fighter round 5 submission attempts.
+r_rd5_rev: Red-corner fighter round 5 reversals.
+b_rd5_rev: Blue-corner fighter round 5 reversals.
+r_rd5_ctrl_sec: Red-corner fighter round 5 control time, in seconds.
+b_rd5_ctrl_sec: Blue-corner fighter round 5 control time, in seconds.
+r_rd5_head: Red-corner fighter round 5 head significant strikes landed, as a raw count.
+r_rd5_head_att: Red-corner fighter round 5 head significant strike attempts.
+b_rd5_head: Blue-corner fighter round 5 head significant strikes landed, as a raw count.
+b_rd5_head_att: Blue-corner fighter round 5 head significant strike attempts.
+r_rd5_body: Red-corner fighter round 5 body significant strikes landed, as a raw count.
+r_rd5_body_att: Red-corner fighter round 5 body significant strike attempts.
+b_rd5_body: Blue-corner fighter round 5 body significant strikes landed, as a raw count.
+b_rd5_body_att: Blue-corner fighter round 5 body significant strike attempts.
+r_rd5_leg: Red-corner fighter round 5 leg significant strikes landed, as a raw count.
+r_rd5_leg_att: Red-corner fighter round 5 leg significant strike attempts.
+b_rd5_leg: Blue-corner fighter round 5 leg significant strikes landed, as a raw count.
+b_rd5_leg_att: Blue-corner fighter round 5 leg significant strike attempts.
+r_rd5_distance: Red-corner fighter round 5 distance significant strikes landed, as a raw count.
+r_rd5_distance_att: Red-corner fighter round 5 distance significant strike attempts.
+b_rd5_distance: Blue-corner fighter round 5 distance significant strikes landed, as a raw count.
+b_rd5_distance_att: Blue-corner fighter round 5 distance significant strike attempts.
+r_rd5_clinch: Red-corner fighter round 5 clinch significant strikes landed, as a raw count.
+r_rd5_clinch_att: Red-corner fighter round 5 clinch significant strike attempts.
+b_rd5_clinch: Blue-corner fighter round 5 clinch significant strikes landed, as a raw count.
+b_rd5_clinch_att: Blue-corner fighter round 5 clinch significant strike attempts.
+r_rd5_ground: Red-corner fighter round 5 ground significant strikes landed, as a raw count.
+r_rd5_ground_att: Red-corner fighter round 5 ground significant strike attempts.
+b_rd5_ground: Blue-corner fighter round 5 ground significant strikes landed, as a raw count.
+b_rd5_ground_att: Blue-corner fighter round 5 ground significant strike attempts.

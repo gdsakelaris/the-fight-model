@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below."
+title: "A Leakage-Safe, Time-Aware Ensemble for UFC Fight Outcome and Method-of-Victory Prediction"
+type: software
+authors:
+  - family-names: "Sakelaris"
+    given-names: "George Daniel"
+    email: "gdsakelaris@gmail.com"
+version: "1.0.0"
+date-released: "2026-07-04"
+license: MIT
+url: "https://github.com/gdsakelaris/the-fight-model"
+abstract: >-
+  A machine-learning system that predicts UFC fight winners and methods of
+  victory (Decision / KO-TKO / Submission) from strictly chronological,
+  leak-safe pre-fight features, combining margin-of-victory-adjusted Glicko-2,
+  divisional Elo, and phase-specific (striking/grappling x offense/defense)
+  ratings with a corner-swap-symmetric gradient-boosted ensemble and a
+  two-stage method classifier.
+keywords:
+  - UFC
+  - MMA
+  - sports analytics
+  - forecasting
+  - machine learning
+  - Glicko-2
+  - ensemble learning
